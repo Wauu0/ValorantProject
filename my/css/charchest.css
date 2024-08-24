@@ -1,0 +1,49 @@
+.card h4{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border: #111, 2px, solid;
+    background-color: #111;
+}
+
+.card p{
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    width: 400px;
+    align-items: center;
+    gap: 20px;
+    padding: 19px;
+    background-color: #111;
+}
+
+.card div{
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    border: 2px, solid, rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #111;
+    width: 920px;
+    flex-wrap: nowrap;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+  }
+  
+  .bg {
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    filter: blur(10px);
+    background-image: url(https://www.chromethemer.com/download/hd-wallpapers/valorant-1920x1080.jpg);
+    background-size: cover;
+  }

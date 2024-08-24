@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <img src="/images/logo.png" alt="img" id="logotype">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="pages/home_works.html" class="head-font">Home Works</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/lessons.html" class="head-font">Lessons</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/V.html" class="head-font">Charachers</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_block">
+        <div class="container">
+            <div class="inner_main">
+                <h1><strong id="js-color">Valorant</strong> - динамичный шутер</h1>
+                <div class="colors-buttons">
+                    <button class="btn btn-color"></button>
+                    <button class="btn btn-color"></button>
+                    <button class="btn btn-color"></button>
+                    <button class="btn btn-color"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider_block">
+        <div class="container">
+            <div class="inner_slider">
+                <div class="slider">
+                    <button class="btn-slide" id="prev">назад</button>
+                    <div class="slide active_slide">
+                        <div class="slide_card">
+                            <h3>Минимальные требования для игры</h3>
+                            <p class="card-text">минимальные требование для valorant процессор: Intel Core 2 Duo E8400 (Intel), Athlon 200GE (AMD)
+                                видеокарта: Intel HD 4000, Radeon R5 200
+                            </p>
+                            <a href="https://playvalorant.com/ru-ru/specs/" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide_card">
+                            <h3>Что интереcного в этой игре?</h3>
+                            <p class="card-text">в игре есть большое количество персонажей с уникальными умениями на изучение которых вы потратите много времени</p>
+                            <a href="https://playvalorant.com/ru-ru/agents/" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide_card">
+                            <h3>Классы агентов</h3>
+                            <p class="card-text">В игре всего 4 Класса агентов: дуелянты, стражники, зачинщики и специалисты подробнее внизу </p>
+                            <a href="https://playvalorant.com/ru-ru/agents/" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <button class="btn-slide" id="next">вперед</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="maps">
+    <div class="container">
+        <div class="map">
+            <h1 class="h1">Карты</h1>
+            <img src="http://spkip.satreephuket.ac.th/assets/img/esports.png" alt="map">
+        </div>
+    </div>
+</div>
+<div class="skins">
+    <div class="container">
+        <div class="skin">
+            <img src="https://vkplay.ru/pre_0x736_resize/hotbox/content_files/Stories/2023/02/22/d8e299dbc44446e986bcd751ef5d3c44.jpg?quality=85" alt="skins">
+            <h1 class="h1">скины</h1>
+        </div>
+    </div>
+</div>
+<div class="beta">
+    <h2>В честь выхода валорант беты на консолях Riot Games выпустила ролик</h2>
+    <iframe class="videoVal" width="560" height="315" src="https://www.youtube.com/embed/6nKzziP2lxw?si=DrH5ZE9qA8OXFcWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <input
+                    required
+                    placeholder="Ваше имя"
+                    name="name"
+                    type="text"
+                    class="modal_input"
+                >
+                <input
+                    required
+                    placeholder="Ваш номер телефона"
+                    name="phone"
+                    type="text"
+                    class="modal_input"
+                >
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+</html>
